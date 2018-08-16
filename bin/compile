@@ -43,7 +43,7 @@ fi
 
 speak "Running stack"
 cd "$BUILD_DIR"
-$STACK_EXE setup
+$STACK_EXE setup -v
 $STACK_EXE build --fast
 
 speak "Making stack binaries available"
